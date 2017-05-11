@@ -1,6 +1,6 @@
 # デザインパターン - Singletonパターン
 
-次のクラス、インタフェースがあります。
+次のクラスがあります。
 
 + SingletonCounter
 + Main
@@ -54,7 +54,7 @@ public class Main {
 }
 ```
 
-> counter1もcounter2も同一のインスタンスを参照するようにした。
+> counter1もcounter2も同一のインスタンスを参照するようにしたい。
 
 ### 実行結果
 

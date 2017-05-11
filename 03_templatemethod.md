@@ -1,11 +1,10 @@
 # デザインパターン - Template Methodパターン
 
-次のクラス、インタフェースがあります。
+次のクラスがあります。
 
 + IncrementCounter
 + DecrementCounter
 + Main
-
 
 <img src="https://s3-ap-northeast-1.amazonaws.com/optext/java/oop/template.png" width="500px" >
 
@@ -90,7 +89,7 @@ End
 
 ## 課題
 
-IncrementCounter、DecrementCounterクラスの重複するコード（前処理、後処理）を共通化してください。
+IncrementCounter、DecrementCounterクラスのスーパースクラスを作成し、重複するコード（前処理、後処理）を共通化してください。
 
 ### 重複 - 前処理
 
